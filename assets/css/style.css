@@ -325,6 +325,13 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#logo{
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #0a3b52;
+  width: 300px;
+  
+}
 #hero {
   width: 100%;
   height: 80vh;
@@ -686,6 +693,13 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
+#logo2{
+  width: 400px;
+  margin-left: 450px;
+}
+#texto{
+  margin-left: 250px;
+}
 .cta {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
@@ -693,11 +707,13 @@ section {
 }
 .cta h3 {
   color: #fff;
+  text-align: center;
   font-size: 28px;
   font-weight: 700;
 }
 .cta p {
   color: #fff;
+  text-align: center;
 }
 .cta .cta-btn {
   font-family: "Jost", sans-serif;
